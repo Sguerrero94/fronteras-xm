@@ -1,0 +1,19 @@
+# Credenciales: nunca se suben
+.env
+**/.env
+
+# Entornos y datos generados
+**/.venv/
+pipeline/archivos/
+pipeline/logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos temporales de Excel
+~$*
+
+# Herramientas de agentes instaladas localmente
+.agents/
+.claude/
+skills-lock.json
